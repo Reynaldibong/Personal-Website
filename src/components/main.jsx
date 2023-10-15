@@ -135,8 +135,7 @@ export default function Main() {
 
       {/* content */}
       <Flex
-        py={"1%"}
-        pt={{ lg: "9%", base: "17%" }}
+        pt={{ lg: "8%", base: "24%" }}
         display={{ lg: "flex", base: "block" }}
         bgColor={"#fcfbf3"}
       >
@@ -316,7 +315,7 @@ export default function Main() {
           id="skills"
           flexDir={"column"}
           align={"center"}
-          py={{ lg: "10em", base: "12em" }}
+          py={{ lg: "12em", base: "12em" }}
           bgColor={"#fcfbf3"}
         >
           <Flex
@@ -843,7 +842,7 @@ export default function Main() {
         <Flex
           id="contact"
           justify={"space-around"}
-          py={{ lg: "13em", base: "12em" }}
+          py={{ lg: "17em", base: "12em" }}
           bgColor={"#fcfbf3"}
         >
           <Flex flex={1} display={{ lg: "flex", base: "none" }}></Flex>
