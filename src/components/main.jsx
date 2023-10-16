@@ -213,19 +213,21 @@ export default function Main() {
 
       <Flex justify={"center"} bgColor={"#fcfbf3"} pb={"5%"}>
         <Flex w={"90%"} py={"3em"} justify={{ base: "center", lg: "normal" }}>
-          <Button
-            display={"flex"}
-            gap={"0.5em"}
-            variant={"ghost"}
-            color={"#685a35"}
-            borderRadius={"10em"}
-            boxShadow="0 0 15px rgba(0, 0, 0, 0.2)"
-            _hover={{ colorScheme: "#4d243d", transform: "translateY(-5px)" }}
-            transition="transform 0.5s ease"
-          >
-            <Icon as={FiDownload} />
-            Download CV
-          </Button>
+          <Link href="https://drive.google.com/file/d/1rmUFobcBKCi8fhDEfujf1izkVpst6r34/view?usp=drive_link">
+            <Button
+              display={"flex"}
+              gap={"0.5em"}
+              variant={"ghost"}
+              color={"#685a35"}
+              borderRadius={"10em"}
+              boxShadow="0 0 15px rgba(0, 0, 0, 0.2)"
+              _hover={{ colorScheme: "#4d243d", transform: "translateY(-5px)" }}
+              transition="transform 0.5s ease"
+            >
+              <Icon as={FiDownload} />
+              Download CV
+            </Button>
+          </Link>
         </Flex>
       </Flex>
 
