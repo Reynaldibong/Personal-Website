@@ -582,7 +582,7 @@ export default function Main() {
                 <Link
                   transition="transform 0.5s ease"
                   _hover={{ transform: "translateY(-10px)" }}
-                  href="https://github.com/purwadhikafullstack/jcwd020605"
+                  href="https://github.com/Reynaldibong/final-project-jcwd020605"
                 >
                   <Icon as={BiLogoGithub} />
                 </Link>
