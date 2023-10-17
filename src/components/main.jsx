@@ -213,7 +213,10 @@ export default function Main() {
 
       <Flex justify={"center"} bgColor={"#fcfbf3"} pb={"5%"}>
         <Flex w={"90%"} py={"3em"} justify={{ base: "center", lg: "normal" }}>
-          <Link href="https://drive.google.com/file/d/1rmUFobcBKCi8fhDEfujf1izkVpst6r34/view?usp=drive_link">
+          <Link
+            _hover={{ textDecor: "none" }}
+            href="https://drive.google.com/file/d/1joJ0U6vXM75U7qWe5WOFl2lvNpZgL8xF/view?usp=drive_link"
+          >
             <Button
               display={"flex"}
               gap={"0.5em"}
@@ -512,7 +515,7 @@ export default function Main() {
               gap={{ base: "2em", lg: "1em" }}
             >
               <Text fontSize={"3em"} fontWeight={"bold"} color={"#685a35"}>
-                The CAPPA,
+                The CAPPA
               </Text>
               <Flex
                 w={"90%"}
@@ -648,7 +651,7 @@ export default function Main() {
               gap={"1em"}
             >
               <Text fontSize={"3em"} fontWeight={"bold"} color={"#685a35"}>
-                SPOTIFY,
+                SPOTIFY
               </Text>
               <Flex
                 w={"90%"}
@@ -762,7 +765,7 @@ export default function Main() {
               gap={{ base: "2em", lg: "1em" }}
             >
               <Text fontSize={"3em"} fontWeight={"bold"} color={"#685a35"}>
-                INSTAGRAM,
+                INSTAGRAM
               </Text>
               <Flex
                 w={"90%"}
@@ -877,7 +880,7 @@ export default function Main() {
               color={"#685a35"}
               pb={"1em"}
             >
-              Agar tali silaturahmi tidak terputus, pinjam dulu seratus.
+              Let’s collaborate as a team
             </Flex>
 
             <Flex
@@ -888,7 +891,7 @@ export default function Main() {
               color={"#685a35"}
               pb={"1em"}
             >
-              Let me know if you need any help,
+              Contact me if you have any inquiries
             </Flex>
 
             <Flex
